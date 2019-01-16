@@ -13,12 +13,29 @@ body {
     font-style: italic;
 }
 #headings {
-    text-align: left;
+    text-align: center;
     font-size: 50pt;
     font-family: 'Pacifico', cursive;
 }
+body, html {
+    height: 100%;
+  }
+  
+  #parallax { 
+    /* The image used */
+    background-image: url("https://www.closetcooking.com/wp-content/uploads/2011/11/ThePerfectGrilledCheeseSandwich5004401.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .imageholder {
     text-align: right;
     vertical-align: middle;
-    
+
 }
