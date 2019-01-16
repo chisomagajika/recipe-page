@@ -1,41 +1,23 @@
-body {
-    background-color: aliceblue;
-     
-}
-.intro {
-    text-align: left;
-   
-
-}
-#intop {
-    text-align: left;
-    font-size: 30pt;
-    font-style: italic;
-}
-#headings {
-    text-align: center;
-    font-size: 50pt;
-    font-family: 'Pacifico', cursive;
-}
-body, html {
-    height: 100%;
-  }
-  
-  #parallax { 
-    /* The image used */
-    background-image: url("https://www.closetcooking.com/wp-content/uploads/2011/11/ThePerfectGrilledCheeseSandwich5004401.jpg");
-  
-    /* Full height */
-    height: 100%; 
-  
+#heading{
+    color: whitesmoke;
+    font-family: Gochi Hand', cursive;
     
-    background-attachment: fixed;
+    font-size: 100pt;
+    width: 100%;
+    height: 10%;
+    
+}
+.introp{
+    padding: 5%;
+    font-size: 30pt;
+    
+    
+}
+.parallax{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/06/63/a8/a5/grilled-cheese-sandwich.jpg);
+    height: 100%;
+    background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-.imageholder {
-    text-align: right;
-    vertical-align: middle;
-
 }
