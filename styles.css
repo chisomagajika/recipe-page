@@ -1,23 +1,54 @@
-#heading{
+
+body{
+    background-color: #D3B8F8;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15pt;
     color: whitesmoke;
-    font-family: Gochi Hand', cursive;
+    font-family: 'Permanent Marker', cursive;
+  }
+  .heading{
+      padding: 2%;
+  }
+  p1{
+    color:#7C8485;
     
-    font-size: 100pt;
+  }
+h2{
+    font-family: 'Monoton', cursive;;
+    font-size: 60pt;
     width: 100%;
     height: 10%;
-    
+    color: white;
+    text-align: center; 
 }
-.introp{
+.left{
+    float: left;
+    text-align: center;
+    width: 50%;
+  
+}
+.right{
+    float:right;
+    text-align: center;
+    width: 50%;
+}
+.padding{
     padding: 5%;
-    font-size: 30pt;
-    
-    
+    border-style: dotted;
+    border-color: #A793C4;
+    margin: 1cm;
 }
-.parallax{
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/06/63/a8/a5/grilled-cheese-sandwich.jpg);
-    height: 100%;
-    background-attachment: local;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.padding2{
+    padding: 5%;
+    border-style: dotted;
+    border-color: #A793C4;
+    margin: 1cm;
+}
+p{
+    font-size: 25pt;
+    color: #56515D
 }
